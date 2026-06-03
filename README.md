@@ -1,16 +1,3 @@
-# React + Vite
+Entertainment Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A full-stack-style media browsing app built with React 19 and Tailwind CSS v4. Features include browsing movies and TV series, bookmarking content, and per-page search. Authentication is simulated using localStorage with a full login and signup flow including form validation. The app uses React Context API with useReducer for global state management, React Router v7 for client-side navigation with protected routes, and a mobile-first responsive design that scales across tablet, desktop and ultra-wide screens. Unit tests written with Vitest and React Testing Library cover form validation, user interactions and component behaviour.
