@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-blue500: hsl(223, 23%, 46%);
+  --color-blue900: hsl(223, 36%, 14%);
+  --color-blue950: hsl(223, 30%, 9%);
+  --color-red500: hsl(0, 97%, 63%);
+  --color-red600: hsl(0, 97%, 53%);
+  --font-outfit: "Outfit", sans-serif;
+}
+
+@utility scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  background-color: theme(--color-blue950);
+}
