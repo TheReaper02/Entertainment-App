@@ -1,6 +1,6 @@
 # Entertainment Web App
 
-(PO.png)
+![Showcase](PO.png)
 
 A media browsing app inspired by streaming platforms, built as part of a Frontend Mentor advanced challenge.
 
