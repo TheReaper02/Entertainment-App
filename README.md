@@ -1,3 +1,4 @@
-Entertainment Web App
+
+**Entertainment Web App**
 
 A full-stack-style media browsing app built with React 19 and Tailwind CSS v4. Features include browsing movies and TV series, bookmarking content, and per-page search. Authentication is simulated using localStorage with a full login and signup flow including form validation. The app uses React Context API with useReducer for global state management, React Router v7 for client-side navigation with protected routes, and a mobile-first responsive design that scales across tablet, desktop and ultra-wide screens. Unit tests written with Vitest and React Testing Library cover form validation, user interactions and component behaviour.
